@@ -1,0 +1,8 @@
+<a href="{% url 'index' %}">&#8592; Back</a>
+</div>
+<form method="POST" action="">
+{% csrf_token %}
+{{form.as_p}}
+<input class='button' type="submit" , value="submit">
+
+</form>
